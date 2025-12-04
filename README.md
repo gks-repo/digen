@@ -10,17 +10,28 @@ It can also help with brute-forcing logins if we know the mask (c.j.smith, monag
 # Usage:
 python3 digen.py mask
 
-Mask:\n
-  ?l - lower case (a-z)
-  ?u - upper case (A-Z)
-  ?d - digit (0-9)
-  ?s - special
-  ?a - ?l?u?d?s
-  ?w - word from file
-  Hardcoded characters are inserted as is
+**Mask:**
+
+  *?l - lower case (a-z)*
   
-Examples:
-  ?w?d?d           - word00, word01,...
-  ?u?l?l?l?w       - Aaaaword, Aaabword,...
-  prefix_?w_suffix - prefix_word_suffix,...
-  ?w?w?d           - wordword0, wordword1,...
+  *?u - upper case (A-Z)*
+  
+  *?d - digit (0-9)*
+  
+  *?s - special*
+  
+  *?a - ?l?u?d?s*
+  
+  *?w - word from file*
+  
+  Hardcoded characters are inserted as is.
+  
+**Examples:**
+
+  *?w?d?d*           - word00, word01,...
+  
+  *?u?l?l?l?w*       - Aaaaword, Aaabword,...
+  
+  *prefix_?w_suffix* - prefix_word_suffix,...
+  
+  *?w?w?d*           - wordword0, wordword1,...
