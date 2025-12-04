@@ -1,0 +1,2 @@
+# digen
+DIctionary GENerator
