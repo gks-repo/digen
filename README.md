@@ -10,7 +10,7 @@ It can also help with brute-forcing logins if we know the mask (c.j.smith, monag
 # Usage:
 python3 digen.py mask
 
-Mask:
+Mask:\n
   ?l - lower case (a-z)
   ?u - upper case (A-Z)
   ?d - digit (0-9)
